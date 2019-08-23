@@ -10,7 +10,7 @@ dubbo:
     qos-accept-foreign-ip: false
     qos-enable: true
   registry:
-    address: zookeeper://192.168.25.129:2181
+    address: zookeeper://192.168.192.128:2181
 
 #ftl conf
 spring:

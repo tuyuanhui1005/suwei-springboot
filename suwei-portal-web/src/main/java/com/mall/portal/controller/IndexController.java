@@ -1,19 +1,27 @@
 package com.mall.portal.controller;
 
+import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
-/**
- * @author weiwei
- * @create 2019-08-20 10:27
- */
+import javax.servlet.http.HttpServletRequest;
+
 @Controller
 public class IndexController {
+
+
+
 
     @RequestMapping({"/index", "/", "index.html"})
     public String shoeIndex(Model model){
 
         return "index";
     }
+
+
+
+
 }

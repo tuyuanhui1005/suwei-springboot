@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/suwei-common/suwei-common.iml" filepath="$PROJECT_DIR$/suwei-common/suwei-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suwei-content/suwei-content.iml" filepath="$PROJECT_DIR$/suwei-content/suwei-content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suwei-content/suwei-content-interface/suwei-content-interface.iml" filepath="$PROJECT_DIR$/suwei-content/suwei-content-interface/suwei-content-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suwei-content/suwei-content-service/suwei-content-service.iml" filepath="$PROJECT_DIR$/suwei-content/suwei-content-service/suwei-content-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/suwei-manager/suwei-manager.iml" filepath="$PROJECT_DIR$/suwei-manager/suwei-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/suwei-manager/suwei-manager-dao/suwei-manager-dao.iml" filepath="$PROJECT_DIR$/suwei-manager/suwei-manager-dao/suwei-manager-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/suwei-manager/suwei-manager-interface/suwei-manager-interface.iml" filepath="$PROJECT_DIR$/suwei-manager/suwei-manager-interface/suwei-manager-interface.iml" />
@@ -10,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/suwei-manager/suwei-manager-service/suwei-manager-service.iml" filepath="$PROJECT_DIR$/suwei-manager/suwei-manager-service/suwei-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/suwei-manager/suwei-manager-web/suwei-manager-web.iml" filepath="$PROJECT_DIR$/suwei-manager/suwei-manager-web/suwei-manager-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/suwei-parent/suwei-parent.iml" filepath="$PROJECT_DIR$/suwei-parent/suwei-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suwei-portal-web/suwei-portal-web.iml" filepath="$PROJECT_DIR$/suwei-portal-web/suwei-portal-web.iml" />
     </modules>
   </component>
 </project>
