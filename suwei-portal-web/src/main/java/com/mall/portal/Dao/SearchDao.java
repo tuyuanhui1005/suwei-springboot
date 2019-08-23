@@ -42,6 +42,7 @@ public class SearchDao {
 
                 SearchItem item = new SearchItem();
                 item.setId((String)doc.get("id"));
+                item.setTitle((String) doc.get("item_title"));
                 item.setCategory_name((String) doc.get("item_category_name"));
                 item.setImage((String) doc.get("item_image"));
                 item.setItem_desc((String) doc.get("item_desc"));

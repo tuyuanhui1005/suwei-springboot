@@ -1,6 +1,7 @@
 package com.mall.portal.controller;
 
 
+import com.mall.portal.Common.SearchItem;
 import com.mall.portal.Common.SearchResult;
 import com.mall.portal.Service.SearchService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Controller
 public class SearchController {
@@ -21,7 +23,6 @@ public class SearchController {
     private int SEARCH_RESULT_ROWS=60;
 
     @RequestMapping("/Search")
-    @ResponseBody
     public String SearchTest(@RequestParam("keyword") String queryString ,Model model,@RequestParam(defaultValue = "1") int page){
 
 
@@ -34,10 +35,10 @@ public class SearchController {
         model.addAttribute("totalPages",result.getTotalPages());
         model.addAttribute("itemList",result.getItemList());
         model.addAttribute("page",page);
+        model.addAttribute("recourdCount", result.getRecordCount());
 
-        System.out.println(result.getItemList().toString());
 
-        return "user/search";
+        return "User/Search";
 
 
     }
